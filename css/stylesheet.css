@@ -1,8 +1,19 @@
-body {
+.landing-image{
     /*Responsive background image*/
-    background-image: url("../images/MetamorphosisGym_Isologotipo.png");
+    background-image: url("../images/MetamorphosisGym_Isologotype.png");
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
 }
+.border-style{
+    padding: 5px;
+    border-radius: 5px;
+}
+button{
+    cursor: pointer;
+    color: gold;
+    background-color: black;
+    border: 3px solid yellow;
+}
+
