@@ -25,4 +25,47 @@ button{
     bottom: 5%;
     border: 3px solid red;
 }
-
+.facebook-logo{
+    background-image: url("../images/Facebook_Logo.png");
+    background-repeat: no-repeat;
+}
+.instagram-logo{
+    background-image: url("../images/Instagram_Logo.png");
+    background-repeat: no-repeat;
+}
+.linkedin-logo{
+    background-image: url("../images/Linkedin_Logo.png");
+    background-repeat: no-repeat;
+}
+.closed-letter-icon{
+    background-image: url("../images/CloseLetter_Icon.png");
+    background-repeat: no-repeat;
+}
+#open-contact-container{
+    display: none;
+}
+.developer-contact-container{
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
+.social-media a, .close-letter-icon{
+    display: block;
+    text-decoration: none;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+    text-decoration: none;
+    transition: all 500ms ease;
+}
+.social-media a{
+    margin-bottom: -15px;
+    opacity: 0;
+    visibility: hidden;
+}
+#open-contact:checked~ .social-media a{
+    margin-bottom: 10px;
+    opacity: 1;
+    visibility: visible;
+}
