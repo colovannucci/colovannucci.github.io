@@ -38,7 +38,7 @@ button{
     background-repeat: no-repeat;
 }
 .closed-letter-icon{
-    background-image: url("../images/CloseLetter_Icon.png");
+    background-image: url("../images/ClosedLetter_Icon.png");
     background-repeat: no-repeat;
 }
 #open-contact-container{
