@@ -1,19 +1,25 @@
-.landing-image{
-    background-image: url("../images/MetamorphosisGym_Isologotype.png");
+.landing-image-container{
     background-position: center center;
-    background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+}
+.gym-logo{
+    background-image: url("../images/MetamorphosisGym_Isologotype.png");
+    background-repeat: no-repeat;
 }
 .border-style{
     padding: 5px;
     border-radius: 5px;
+    border: 3px solid yellow;
 }
 button{
     cursor: pointer;
     color: gold;
     background-color: black;
-    border: 3px solid yellow;
+}
+label{
+    color: black;
+    background-color: silver;
 }
 .page-container{
     background: black;
@@ -67,4 +73,30 @@ button{
     margin-bottom: 10px;
     opacity: 1;
     visibility: visible;
+}
+.title-container{
+    display: flex;
+    justify-content: center;
+}
+.title-icon-container{
+    background-size:cover;
+    background-repeat: no-repeat;
+    width: 150px;
+    height: 100px;
+    margin: 10px;
+}
+.title{
+    text-align: center;
+    margin: 10px;
+    width: 300px;
+    height: 85px;
+    font-size: 35px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.copyright{
+    color: gold;
+    background-color: red;
+    position: absolute;
+    left: 400px;
+    bottom: 5px;
 }
