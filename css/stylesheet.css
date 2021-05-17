@@ -75,12 +75,14 @@ label{
     visibility: visible;
 }
 .title-container{
+    position: absolute;
+    left: 5%;
+    right: 5%;
     display: flex;
     justify-content: center;
 }
 .title-icon-container{
     background-size:cover;
-    background-repeat: no-repeat;
     width: 150px;
     height: 100px;
     margin: 10px;
@@ -99,4 +101,9 @@ label{
     position: absolute;
     left: 400px;
     bottom: 5px;
+}
+.lewagon-logo{
+    background-image: url("../images/LeWagon_Logo.png");
+    background-repeat: no-repeat;
+    background-position: center;
 }
